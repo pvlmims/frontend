@@ -1,0 +1,101 @@
+body{
+    background: skyblue;
+}
+
+ul{
+    color: yellow;
+}
+
+P{
+    text-align: center;
+}
+
+/*select by class. Use in CSS*/
+.blue{
+    background: blue;
+    color: yellow;
+}
+
+/*select item by id. Id are used in js*/
+#pink{
+    background: pink;
+    color: red;
+}
+
+.manyStyles{
+    font-size: 20px;
+    font-family: Ariel, Helvetica, sans-serif;
+    color:#000;
+    background: #fff;
+    border: 2px solid #000;
+    text-align: right;
+    padding:30px;
+    margin: 50px;
+
+
+}
+
+.el{
+    background: olive;
+    color:#fff;
+    padding: 30px 100px 50px 20px;
+    margin: 50px 200px;
+    opacity: 0.5;
+}
+
+span{
+    color: red;
+    font-size: 30px;
+}
+.green{
+    color:green;
+}
+.class2{
+    color: yellow;
+}
+
+.square{
+    background: blue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.circle{
+    height:100px;
+    width: 100px;
+    border-radius: 100px;
+    background: red;
+    text-align:center;
+    line-height: 100px;
+
+}
+
+
+    .imgHolder img{
+        width:300px;
+        float:left;
+    }
+    .imgHolder .redClr{
+        color: red;
+    }
+
+    .menu{
+        background: lightgreen;
+    }
+    .menu ul li{
+        background: green;
+        display: inline-block;
+        
+
+    }
+    .menu ul li:hover{
+        background: olive;
+
+    }
+    .menu ul li a {
+        color:#fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: inline-block;
+    }
